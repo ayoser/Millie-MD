@@ -46,19 +46,19 @@ global.ucpn = ''
 global.linkgc = 'http://wa.me/94772496127'
 global.linkig = 'https://wa.me/p/5162485713828420/94772496127  '
 global.linkyt = 'https://wa.me/p/5589034257826259/94772496127'
-global.linkfb = 'http://wa.me/94772496127'
+global.linkfb = 'http://wa.me/94768678590'
 global.git = '𝚝𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚒𝚜 𝚋𝚎𝚒𝚗𝚐 𝚝𝚎𝚜𝚝'
 global.web1 = 'https://.github.io/'
 global.url = 'https://wa.me/p/5589034257826259/94772496127'
 
 //HEROKU  VARS
-global.thumburl = process.env.IMAGE || 'https://wa.me/p/5589034257826259/94772496127'
+global.thumburl = process.env.IMAGE || 'https://i.ibb.co/Gd68xq2/IMG-20220704-WA0007.jpg'
 global.packname = process.env.PACKNAME ||'𝙱𝚢'
 global.author = process.env.AUTHOR ||'𝙰 𝚈 𝙾'
 global.name = '𝙂𝙖𝙧𝙛𝙞𝙚𝙡𝙙-𝙈𝘿'
 global.session = process.env.SESSION_ID|| ''
 global.wm = process.env.WATERMARK|| '𝙜𝙖𝙧𝙛𝙞𝙚𝙡𝙙 𝙈𝘿'
-global.owner_name = process.env.OWNER_NAME || 'Neeraj-x0'
+global.owner_name = process.env.OWNER_NAME || 'A Y O'
 global.logsmsg = convertToBool(process.env.LOGS)|| false
 
 function convertToBool(text, fault = 'true') {

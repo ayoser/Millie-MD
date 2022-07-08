@@ -23,7 +23,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
 ߷ *Channel:* ${authorName}`
 
-    conn.sendTBI2(m.chat, capt, wm,thumbnail,"Play on Youtube", url,'🎧 Audio 🎧',`${usedPrefix}psp ${url}`, '📽 Video 📽',`${usedPrefix}ytv ${url}`,m,{     contextInfo: {
+    conn.sendTBI2(m.chat, capt, wm,thumbnail,"Play on Youtube", url,' ⟪ 🎧 Audio 🎧 ⟫',`${usedPrefix}psp ${url}`, '⟪ 📽 Video 📽 ⟫',`${usedPrefix}ytv ${url}`,m,{     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply :{
       mediaUrl: `${url}`,

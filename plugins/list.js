@@ -8,9 +8,9 @@ const os = require('os')
 let moment = require('moment-timezone')
 const { default: Users } = require('node-os-utils/lib/users')
 const defaultMenu = {
-  before: `╭────────────────╮
-          ✪  *ᴍɪʟʟɪᴇ* ✪           
-╰────────────────╯
+  before: `╓────────────────╖
+          ✭ 𝙶𝚊𝚛𝚏𝚒𝚎𝚕𝚍-𝙈𝘿 ✭          
+╙────────────────╜
      
 `.trimStart(),
 header: '┌─〔 %category 〕',
@@ -178,8 +178,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
               {
                 "rows": [
                   {
-                    "title": `𝐌𝐈𝐋𝐋𝐈𝐄`,
-                    "description": "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
+                    "title": `𝐒𝐜𝐫𝐢𝐩𝐭`,
+                    "description": "𝐒𝐜𝐫𝐢𝐩𝐭",
                     "rowId": ".git"
                   },
                   {
@@ -327,7 +327,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-  await conn.sendTBI2(m.chat, text.trim(), wm,thumburl,`sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `, `https://github.com/Neeraj-x0/Millie-MD`, `ᴏᴡɴᴇʀ`, `${_p}owner`, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `.lst all`,m)
+  await conn.sendTBI2(m.chat, text.trim(), wm,thumburl,`𝐬𝐜𝐫𝐢𝐩𝐭`, `𝚜𝚌𝚛𝚒𝚙𝚝 𝚒𝚗 𝚜𝚘𝚘𝚗`, `ᴏᴡɴᴇʀ`, `${_p}owner`, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `.lst all`,m)
  
 }catch(e){
   conn.reply(m.chat,`${e}`)
